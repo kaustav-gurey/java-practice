@@ -10,11 +10,6 @@ public class Quick {
         System.out.println(Arrays.toString(arr));
 
         System.out.println();
-
-        /*int[] arr1 = {3, 7, 8, 4, 10, -1, -56, 89, 0, 4, 23, 0};
-        System.out.println(Arrays.toString(arr));
-        quickSort2(arr,0, arr.length-1);
-        System.out.println(Arrays.toString(arr));*/
     }
     //Quicksort taking the last element of the subsection as pivot
     static void quickSort1(int[] arr, int start, int end) {
@@ -49,11 +44,4 @@ public class Quick {
         quickSort1(arr,i+2,end);
 
     }
-    //Quicksort taking the middle element of the subsection as pivot
-    /*static void quickSort2(int[] arr, int start, int end) {
-        if(start>=end) {
-            return;
-        }
-        int pivot = arr[start+(end-start)/2];
-    }/*
 }
