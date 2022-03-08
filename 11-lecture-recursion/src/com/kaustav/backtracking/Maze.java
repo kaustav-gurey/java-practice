@@ -68,7 +68,7 @@ public class Maze {
     }
     // we have to reach (0,0) by going only down and right
     //return the possible paths
-    //r and c is the index of the row and colum we are starting from
+    //r and c is the index of the row and column we are starting from
     static ArrayList<String> returnULPaths(int r, int c, String path) {
         ArrayList<String> list = new ArrayList<>();
         //add path to the list and return the list if the counter is in (1,1) i.e. the required position

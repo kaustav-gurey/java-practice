@@ -11,8 +11,16 @@ public class OddEven {
         System.out.println(isEven(10));
         System.out.println(isEven(11));
 
+        System.out.println();
+
+        System.out.println(isOdd(10));
+        System.out.println(isOdd(11));
+
     }
     static boolean isEven(int n) {
         return (n&1)==0;
+    }
+    static boolean isOdd(int n) {
+        return (n&1)==1;
     }
 }

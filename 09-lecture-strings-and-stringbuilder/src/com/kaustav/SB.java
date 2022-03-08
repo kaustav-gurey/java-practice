@@ -9,7 +9,7 @@ public class SB {
             //this will add "ch" at the last index of builder
             builder.append(ch);
         }
-        System.out.println(builder.toString());
+        System.out.println(builder);
         System.out.println(builder.deleteCharAt(0));
         System.out.println(builder.reverse());
     }

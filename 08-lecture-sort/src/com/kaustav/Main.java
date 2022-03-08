@@ -21,6 +21,7 @@ public class Main {
         int[] arr4 = {5, 2, 3, 1, 6, 7, 8, 4};
         cyclicSort(arr4);
         System.out.println(Arrays.toString(arr4));
+
     }
     //BUBBLE SORT
     static void bubbleSort(int[] arr) {
