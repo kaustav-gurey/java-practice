@@ -15,23 +15,24 @@ public class BinarySearchSQRT {
         System.out.printf("%.3f \n",preciseBSSqrt(10,3));
         System.out.printf("%.3f \n",preciseBSSqrt(40,3));
     }
-    //returns -1 if the number is not a perfect square
-    static int bsSqrt(int n) {
-        int start = 0;
-        int end = n;
-        while(start<=end) {
+    //returns floor of teh square root if the number is not a perfect square
+    //https://leetcode.com/problems/sqrtx/
+    static int bsSqrt(int x) {
+        int start = 1;
+        int end = x;
+        while(start<=end){
             int mid = start + (end-start)/2;
-            if(mid*mid==n) {
-                return mid;
+            if(mid<x/mid){
+                start = mid+1;
             }
-            if(mid*mid>n) {
+            else if(mid>x/mid){
                 end = mid - 1;
             }
             else {
-                start = mid + 1;
+                return mid;
             }
         }
-        return -1;
+        return end;
     }
     //Time : O(logN)
     //p is for the maximum number of digits after teh decimal
@@ -41,10 +42,10 @@ public class BinarySearchSQRT {
         double root = 0.0;
         while(start<=end) {
             int mid = start + (end-start)/2;
-            if(mid*mid==n) {
+            if(n/mid==n) {
                 return (double)mid;
             }
-            if(mid*mid>n) {
+            if(n/mid<mid) {
                 end = mid - 1;
             }
             else {
