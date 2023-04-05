@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-first-java-program/01-first-java-program.iml" filepath="$PROJECT_DIR$/01-first-java-program/01-first-java-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-lecture-conditionals-loops/02-lecture-conditionals-loops.iml" filepath="$PROJECT_DIR$/02-lecture-conditionals-loops/02-lecture-conditionals-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-lecture-switch-statements-nested-case/03-lecture-switch-statements-nested-case.iml" filepath="$PROJECT_DIR$/03-lecture-switch-statements-nested-case/03-lecture-switch-statements-nested-case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-lecture-methods/04-lecture-methods.iml" filepath="$PROJECT_DIR$/04-lecture-methods/04-lecture-methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-lecture-array-and-arraylist/05-lecture-array-and-arraylist.iml" filepath="$PROJECT_DIR$/05-lecture-array-and-arraylist/05-lecture-array-and-arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-lecture-linear-search/06-lecture-linear-search.iml" filepath="$PROJECT_DIR$/06-lecture-linear-search/06-lecture-linear-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-lecture-binary-search/07-lecture-binary-search.iml" filepath="$PROJECT_DIR$/07-lecture-binary-search/07-lecture-binary-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-lecture-sort/08-lecture-sort.iml" filepath="$PROJECT_DIR$/08-lecture-sort/08-lecture-sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-lecture-strings-and-stringbuilder/09-lecture-strings-and-stringbuilder.iml" filepath="$PROJECT_DIR$/09-lecture-strings-and-stringbuilder/09-lecture-strings-and-stringbuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-lecture-patterns/10-lecture-patterns.iml" filepath="$PROJECT_DIR$/10-lecture-patterns/10-lecture-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-lecture-recursion/11-lecture-recursion.iml" filepath="$PROJECT_DIR$/11-lecture-recursion/11-lecture-recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-lecture-maths-bitwise/12-lecture-maths-bitwise.iml" filepath="$PROJECT_DIR$/12-lecture-maths-bitwise/12-lecture-maths-bitwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
+    </modules>
+  </component>
+</project>
