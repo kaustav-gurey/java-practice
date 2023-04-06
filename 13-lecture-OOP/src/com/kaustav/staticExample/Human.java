@@ -12,7 +12,7 @@ public class Human {
         this.name = name;
         this.salary = salary;
         this.married = married;
-        population += 1;
+        Human.population += 1;
     }
 
     public void display(){
