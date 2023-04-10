@@ -1,7 +1,5 @@
 package com.kaustav.singleton;
 
-import java.security.Signature;
-
 public class Singleton {
     String name = "Unique";
     //this will make sure the constructor cannot be called outside this class
