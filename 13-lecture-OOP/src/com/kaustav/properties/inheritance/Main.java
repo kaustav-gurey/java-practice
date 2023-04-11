@@ -21,10 +21,14 @@ public class Main {
         //System.out.println(box3.weight);
 
         //we cannot access the weight function directly, but we can see its value using a method
-        //if teh method with the same name is present in the parent class then only you can access
-        // the method, but if you call teh method then the method in the child class will run
+        //if the method with the same name is present in the parent class then only you can access
+        // the method, but if you call the method then the method in the child class will run
         box3.info();
         System.out.println();
+        //This should invoke the show() method in BoxWeight(the type of the object)
+        // but because show() method is static this line invokes the show()
+        // method in Box(the reference type of the object)
+        box3.show();
 
         //testing out the copy constructor
         BoxWeight box4 = new BoxWeight(box2);

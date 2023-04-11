@@ -19,6 +19,10 @@ public class BoxWeight extends Box{
         super(other);
         this.weight = other.weight;
     }
+//    @Override
+    public static void show(){
+        System.out.println("I am in BoxWeight.");
+    }
     public void info(){
         super.info();
         System.out.println("Weight: " + this.weight);

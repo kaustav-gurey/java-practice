@@ -29,7 +29,9 @@ public class Box {
         this.b = other.b;
         this.h = other.h;
     }
-
+    public static void show(){
+        System.out.println("I am in Box.");
+    }
     public void info(){
         System.out.println("Running the box:");
         System.out.println("Length: " + this.l);
